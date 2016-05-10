@@ -13,10 +13,11 @@ $ docker compose up -d
 
 
 ```
-Starting composedmesos_mesosmaster_1
-Starting composedmesos_mesosslave_1
-Starting composedmesos_marathon_1
-Starting composedmesos_zookeeper_1
+Creating composedmesos_zookeeper_1
+Creating composedmesos_mesosmaster_1
+Creating composedmesos_mesosslave_1
+Creating composedmesos_marathon_1
+Creating composedmesos_chronos_1
 ```
 
 Find your docker machine IP address.
@@ -31,6 +32,7 @@ Services are available at:
 ```
 http://192.168.99.100:5050/  - Mesos
 http://192.168.99.100:8080/  - Marathon
+http://192.168.99.100:4400/  - Chronos
 ```
 
 To deploy an app via Marathon
