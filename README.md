@@ -1,3 +1,5 @@
+![2014-08-25_mesos-feat](https://cloud.githubusercontent.com/assets/5406688/15591459/32bd1a8c-2395-11e6-8429-bb953308a944.png)
+
 composed-mesos
 --------------
 
